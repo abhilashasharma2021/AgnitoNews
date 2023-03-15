@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="140dp">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/iv_auto_image_slider"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:adjustViewBounds="true"
+            android:maxHeight="?android:attr/listPreferredItemHeight"
+            android:maxWidth="?android:attr/listPreferredItemHeight"
+            android:scaleType="centerCrop"/>
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_alignParentBottom="true"
+    android:layout_marginBottom="10dp"
+    android:layout_height="wrap_content">
+    <com.google.android.material.textview.MaterialTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:id="@+id/txTittle"
+        android:fontFamily="@font/merriweatherbold"
+        android:text="Author Name"
+        android:textColor="@color/grey_txt"
+        android:textSize="12sp" />
+
+    <com.google.android.material.textview.MaterialTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginStart="10dp"
+        android:layout_below="@+id/txTittle"
+        android:layout_marginEnd="10dp"
+        android:id="@+id/txDescription"
+        android:fontFamily="@font/merriweatherbold"
+        android:text="Fire rips through Lagos plank market, destroys goods worth millions of naira."
+        android:textColor="@color/grey_txt"
+        android:textSize="13sp" />
+
+</RelativeLayout>
+
+    </RelativeLayout>
+
+
+</LinearLayout>

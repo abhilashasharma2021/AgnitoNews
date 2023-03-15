@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">AgnitoNews</string>
+    <string name="welcome">Welcome!</string>
+    <string name="get_started">Get Started</string>
+    <string name="find_the_latest_news_amp_updates_n_from_around_the_globe"><![CDATA[Find the latest news & updates \n from around the Globe]]></string>
+    <string name="create_account">Create Account</string>
+    <string name="enter_your_details_to_get_registered">Enter your details to get registered </string>
+    <string name="user_name">User Name</string>
+    <string name="mobile_number">Mobile Number</string>
+    <string name="password">Password</string>
+    <string name="email">Email</string>
+    <string name="email_Address">Email Address</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="already_have_an_account_log_in">Already have an account? Log In</string>
+    <string name="agree_to_all_terms_amp_conditions"><![CDATA[Agree to all terms & conditions]]></string>
+    <string name="log_in">Log In</string>
+    <string name="details_to_continue">Enter your log in details to continue</string>
+    <string name="or_continue_with">Or Continue with</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="forgot_pass">Forgot Password</string>
+    <string name="home">Home</string>
+    <string name="popular">Popular</string>
+    <string name="video">Video</string>
+    <string name="profile">Profile</string>
+    <string name="saved_post">Saved Post</string>
+    <string name="setting">Settings</string>
+    <string name="logout">Logout</string>
+    <string name="forgot">Forgot</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="search_here">Search here</string>
+    <string name="latest_news">Latest News</string>
+    <string name="personalize_your_feed">Personalize your feed</string>
+    <string name="category">Category</string>
+    <string name="profile_image">Profile Image</string>
+    <string name="contact">Contact</string>
+    <string name="notification">Notification</string>
+    <string name="change_password">Change Password</string>
+    <string name="delete_account">Delete Account</string>
+    <string name="old_password">Old Password</string>
+    <string name="re_enter_password">Re-enter new Password</string>
+    <string name="new_password">New Password</string>
+    <string name="save">Save</string>
+
+</resources>

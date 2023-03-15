@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgground"
+    tools:context=".activity.LoginActivity">
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:orientation="vertical"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/tv_splash"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginTop="25dp"
+                    android:fontFamily="@font/poppinsbold"
+                    android:text="@string/log_in"
+                    android:textColor="@color/black"
+                    android:textSize="18dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="10dp"
+                    android:text="@string/details_to_continue"
+                    android:fontFamily="@font/merriweatherbold"
+                    android:textColor="@color/grey_txt"
+                    android:textSize="13sp" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:padding="16dp"
+                android:layout_marginTop="20dp"
+                android:layout_height="wrap_content">
+
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:layout_width="match_parent"
+                    app:endIconMode="clear_text"
+                    app:helperTextTextColor="@color/purple_200"
+                    app:startIconDrawable="@drawable/email"
+                    app:boxStrokeWidth="0dp"
+                    app:startIconTint="@color/grey_txt"
+                    android:textColorHint="@color/grey_txt"
+                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
+                    app:boxBackgroundColor="@color/grey_light"
+                    android:background="@android:color/transparent"
+                    android:layout_height="wrap_content">
+
+                    <EditText
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="@string/email"
+                        android:fontFamily="@font/merriweatherregular"
+                        android:inputType="textEmailAddress"
+                        android:textSize="14sp"
+                        android:textColor="@color/black"
+                        android:textColorHint="@color/black"
+                        android:imeOptions="actionNext"
+                        android:id="@+id/etEmail" />
+
+                </com.google.android.material.textfield.TextInputLayout>
+
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:layout_width="match_parent"
+                    app:endIconMode="clear_text"
+                    app:boxStrokeWidth="0dp"
+                    android:layout_marginTop="15dp"
+                    android:textColorHint="@color/grey_txt"
+                    app:helperTextTextColor="@color/purple_200"
+                    app:startIconDrawable="@drawable/password"
+                    app:passwordToggleEnabled="true"
+                    app:startIconTint="@color/grey_txt"
+                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
+                    app:boxBackgroundColor="@color/grey_light"
+                    android:background="@android:color/transparent"
+                    android:layout_height="wrap_content">
+
+                    <EditText
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="@string/password"
+                        android:inputType="textPassword"
+                        android:textSize="14sp"
+                        android:textColor="@color/black"
+                        android:textColorHint="@color/black"
+                        android:fontFamily="@font/merriweatherregular"
+                        android:imeOptions="actionDone"
+                        android:id="@+id/etPassword" />
+
+                </com.google.android.material.textfield.TextInputLayout>
+
+            </LinearLayout>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="end"
+                android:id="@+id/txForgot"
+                android:fontFamily="@font/merriweatherregular"
+                android:text="@string/forgot_password"
+                android:textColor="@color/purple_200"
+                android:layout_marginEnd="15dp"
+                android:textSize="14sp" />
+
+            <com.google.android.material.button.MaterialButton
+                android:layout_width="match_parent"
+                android:layout_marginStart="30dp"
+                android:layout_marginEnd="30dp"
+                android:layout_marginTop="10dp"
+                android:text="@string/log_in"
+                android:textAllCaps="false"
+                android:id="@+id/btLogin"
+                android:textSize="14sp"
+                app:backgroundTint="@null"
+                android:background="@drawable/gradient_btn"
+                android:fontFamily="@font/merriweatherbold"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginStart="15dp"
+                android:id="@+id/txSignUp"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/merriweatherregular"
+                android:text=""
+                android:textAlignment="center"
+                android:textColor="@color/grey_txt"
+                android:textSize="13sp" />
+
+
+        </LinearLayout>
+
+    </androidx.core.widget.NestedScrollView>
+</RelativeLayout>

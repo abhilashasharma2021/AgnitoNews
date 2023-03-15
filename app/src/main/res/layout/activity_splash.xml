@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/background"
+    tools:context=".activity.SplashActivity">
+
+    <RelativeLayout
+        android:id="@+id/rl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:gravity="center">
+
+        <ImageView
+            android:id="@+id/splash_logo"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_centerInParent="true"
+            android:src="@drawable/logo" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/rl"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tx"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="@font/merriweatherbold"
+            android:text="@string/welcome"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/grey"
+            android:textSize="45dp" />
+
+        <TextView
+            android:id="@+id/tv_splash"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/merriweatherregular"
+            android:layout_gravity="center"
+            android:layout_marginTop="15dp"
+            android:textAlignment="center"
+            android:text="@string/find_the_latest_news_amp_updates_n_from_around_the_globe"
+            android:textColor="@color/grey"
+            android:textSize="16sp" />
+
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btStart"
+            android:layout_width="140dp"
+            android:layout_height="55dp"
+            android:layout_gravity="center"
+
+            android:layout_marginTop="20dp"
+            android:text="@string/get_started"
+            android:textAllCaps="false"
+            app:strokeWidth="2dp"
+            android:backgroundTint="@color/purple_200"
+            app:strokeColor="@color/border_bt"
+            android:textColor="@color/white"
+            android:textSize="14sp"
+            app:cornerRadius="50dp" />
+
+    </LinearLayout>
+
+
+</RelativeLayout>
